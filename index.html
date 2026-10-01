@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Onion Food</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Mobile Intro -->
+
+    <div class="mobile-intro" onclick="openMobilePage()">
+        <img src="images/logo.png" alt="Onion Food Logo">
+    </div>
+
+
+    <!-- Logo -->
+
+    <div class="logo">
+        <img src="images/logo.png" alt="Onion Food Logo">
+    </div>
+
+
+    <!-- Navigation -->
+
+  <nav>
+
+    <button class="menu-btn" onclick="toggleMobileMenu()">
+        ☰
+    </button>
+
+    <div class="nav-links">
+
+        <a href="#home">Home</a>
+
+        <a href="#how-it-works">How It Works</a>
+
+        <a href="#cities">Cities</a>
+
+        <a href="#testimonials">Testimonials</a>
+
+        <a href="#pricing">Pricing</a>
+
+    </div>
+
+</nav>
+
+    <a href="#pricing" class="signup-btn" onclick="showMessage()">
+        Sign Up
+    </a>
+
+
+    <!-- Hero -->
+
+   <section class="hero" id="home">
+
+    <div class="hero-content">
+
+        <p class="hero-small">GOOD FOOD. HAPPY LIFE.</p>
+
+        <h1>
+            Goodbye Junk Food.<br>
+            Hello Healthy Food.
+        </h1>
+
+        <p>
+            Delicious and healthy meals delivered directly to your doorstep.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#pricing" class="primary-btn">
+                Try Now
+            </a>
+
+            <a href="#how-it-works" class="secondary-btn">
+                More About
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="hero-phone">
+
+        <img src="images/phone-mockup.png" alt="Food Delivery App">
+
+        <div class="app-buttons">
+
+            <a href="#" class="app-button">
+                🍎 App Store
+            </a>
+
+            <a href="#" class="app-button">
+                ▶ Google Play
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+    <!-- How It Works -->
+
+    <section class="how-it-works" id="how-it-works">
+
+        <h2>
+            How It Works
+        </h2>
+
+        <p class="section-text">
+            Getting healthy food delivered to your home is easy.
+        </p>
+
+
+        <div class="steps">
+
+
+            <div class="step">
+
+                <span>01</span>
+
+                <h3>
+                    Choose Your Meal
+                </h3>
+
+                <p>
+                    Select your favourite healthy meal
+                    from our available food options.
+                </p>
+
+            </div>
+
+
+            <div class="step">
+
+                <span>02</span>
+
+                <h3>
+                    Make Your Order
+                </h3>
+
+                <p>
+                    Choose your meal and place your
+                    order quickly and easily.
+                </p>
+
+            </div>
+
+
+            <div class="step">
+
+                <span>03</span>
+
+                <h3>
+                    Enjoy Your Food
+                </h3>
+
+                <p>
+                    Your fresh and healthy food will be
+                    delivered directly to your doorstep.
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- Cities -->
+
+    <section class="cities" id="cities">
+
+        <h2>
+            Our Cities
+        </h2>
+
+        <p class="section-text">
+            We are available in many cities around the world.
+        </p>
+
+
+        <div class="city-cards">
+
+
+            <!-- Lisbon -->
+
+            <div class="city-card">
+
+                <img src="images/Lisbon-city.jpg"
+                     alt="Lisbon">
+
+                <h3>
+                    Lisbon
+                </h3>
+
+                <p>
+                    Healthy food delivered fresh every day.
+                </p>
+
+                <div class="city-details">
+
+                    <p>
+                        200+ Restaurants
+                    </p>
+
+                    <p>
+                        24/7 Food Delivery
+                    </p>
+
+                    <p>
+                        4.8/5 Customer Rating
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- San Francisco -->
+
+            <div class="city-card">
+
+                <img src="images/San-francisco-city.jpg"
+                     alt="San Francisco">
+
+                <h3>
+                    San Francisco
+                </h3>
+
+                <p>
+                    Fresh meals delivered to your doorstep.
+                </p>
+
+                <div class="city-details">
+
+                    <p>
+                        300+ Restaurants
+                    </p>
+
+                    <p>
+                        24/7 Food Delivery
+                    </p>
+
+                    <p>
+                        4.9/5 Customer Rating
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- Berlin -->
+
+            <div class="city-card">
+
+                <img src="images/Berlin-city.jpg"
+                     alt="Berlin">
+
+                <h3>
+                    Berlin
+                </h3>
+
+                <p>
+                    Enjoy delicious and healthy food.
+                </p>
+
+                <div class="city-details">
+
+                    <p>
+                        250+ Restaurants
+                    </p>
+
+                    <p>
+                        24/7 Food Delivery
+                    </p>
+
+                    <p>
+                        4.8/5 Customer Rating
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- London -->
+
+            <div class="city-card">
+
+                <img src="images/London-city.jpg"
+                     alt="London">
+
+                <h3>
+                    London
+                </h3>
+
+                <p>
+                    Quality food delivered quickly.
+                </p>
+
+                <div class="city-details">
+
+                    <p>
+                        400+ Restaurants
+                    </p>
+
+                    <p>
+                        24/7 Food Delivery
+                    </p>
+
+                    <p>
+                        4.9/5 Customer Rating
+                    </p>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- Testimonials -->
+
+    
+    <!-- Testimonials -->
+
+<section class="testimonials" id="testimonials">
+
+    <div class="testimonial-content">
+
+        <h2>
+            Our Customers Love Our Food
+        </h2>
+
+        <div class="quotes">
+
+            <div class="quote">
+
+                <img src="images/rahul.jpg" alt="Rahul">
+
+                <p>
+                    "The food is fresh, healthy and
+                    delivered right on time."
+                </p>
+
+                <h3>
+                    — Rahul
+                </h3>
+
+            </div>
+
+
+            <div class="quote">
+
+                <img src="images/priya.jpg" alt="Priya">
+
+                <p>
+                    "Great taste and excellent service.
+                    I really enjoy ordering from here."
+                </p>
+
+                <h3>
+                    — Priya
+                </h3>
+
+            </div>
+
+
+            <div class="quote">
+
+                <img src="images/Aman.png" alt="Aman">
+
+                <p>
+                    "Amazing food quality and quick delivery.
+                    I will definitely order again."
+                </p>
+
+                <h3>
+                    — Aman
+                </h3>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+    <!-- Pricing -->
+
+    <section class="pricing" id="pricing">
+
+        <h2>
+            Start Eating Healthy Today
+        </h2>
+
+        <p class="section-text">
+            Choose a plan according to your needs.
+        </p>
+
+
+        <div class="pricing-cards">
+
+
+            <!-- Premium -->
+
+            <div class="pricing-card">
+
+                <h3>
+                    Premium
+                </h3>
+
+                <p class="price">
+                    <span>₹</span>399
+                </p>
+
+                <p>
+                    per month
+                </p>
+
+
+               <ul>
+
+    <li>✓ 1 Meal Every Day</li>
+
+    <li>✓ Healthy Food</li>
+
+    <li>✓ Free Delivery</li>
+
+    <li>✓ Available 24/7</li>
+
+</ul>
+
+                <button onclick="showMessage()">
+                    Sign Up
+                </button>
+
+            </div>
+
+
+            <!-- Pro -->
+
+            <div class="pricing-card popular">
+
+                <h3>
+                    Pro
+                </h3>
+
+                <p class="price">
+                    <span>₹</span>699
+                </p>
+
+                <p>
+                    per month
+                </p>
+
+
+              <ul>
+
+    <li>✓ 2 Meals Every Day</li>
+
+    <li>✓ Healthy Food</li>
+
+    <li>✓ Free Delivery</li>
+
+    <li>✓ Available 24/7</li>
+
+</ul>
+
+                <button onclick="showMessage()">
+                    Sign Up
+                </button>
+
+            </div>
+
+
+            <!-- Basic -->
+
+            <div class="pricing-card">
+
+                <h3>
+                    Basic
+                </h3>
+
+                <p class="price">
+                    <span>₹</span>199
+                </p>
+
+                <p>
+                    per month
+                </p>
+
+
+               <ul>
+
+    <li>✓ 1 Meal Every Week</li>
+
+    <li>✓ Healthy Food</li>
+
+    <li>✕ Free Delivery</li>
+
+    <li>✕ Available 24/7</li>
+
+</ul>
+
+
+                <button onclick="showMessage()">
+                    Sign Up
+                </button>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+   <!-- Footer -->
+
+<footer>
+
+    <div class="footer-logo">
+
+        <img src="images/logo.png" alt="Onion Food Logo">
+
+        <p>
+            Healthy food delivered fresh to your doorstep.
+        </p>
+
+    </div>
+
+
+    <div class="footer-links">
+
+        <h3>Company</h3>
+
+        <a href="#home">Home</a>
+
+        <a href="#how-it-works">How It Works</a>
+
+        <a href="#cities">Cities</a>
+
+        <a href="#pricing">Pricing</a>
+
+    </div>
+
+
+    <div class="footer-contact">
+
+        <h3>Contact Us</h3>
+
+        <p>
+            Email: info@onionfood.com
+        </p>
+
+        <p>
+            Phone: +91 9876543210
+        </p>
+
+    </div>
+
+
+    <!-- Social Media -->
+
+    <div class="footer-social">
+
+        <h3>Follow Us</h3>
+
+        <div class="social-icons">
+
+            <a href="#">
+                <img src="images/facebook-logo.png" alt="Facebook">
+            </a>
+
+            <a href="#">
+                <img src="images/linkedin.png" alt="LinkedIn">
+            </a>
+
+            <a href="#">
+                <img src="images/twitter.png" alt="Twitter">
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <!-- Copyright -->
+
+    <div class="copyright">
+
+        <p>
+            © 2026 Onion Food. All Rights Reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
